@@ -1,63 +1,57 @@
 # 🐱 Playwright Automation - HTTP Cats Site
 
-Este projeto utiliza o [Playwright](https://playwright.dev/) para realizar testes automatizados no site [HTTP Cats](https://http.cat), que exibe imagens divertidas e informativas para cada código de status HTTP.
+This project uses [Playwright](https://playwright.dev/) to perform automated tests on the [HTTP Cats](https://http.cat) website, which displays fun and informative images for each HTTP status code.
 
 ---
 
-## 📌 Objetivo
+## 📌 Objective
 
-Automatizar a validação visual e funcional das páginas do HTTP Cats, garantindo que as imagens corretas sejam exibidas para os códigos de status HTTP testados.  
-O projeto verifica tanto o carregamento correto das páginas quanto elementos essenciais como títulos e imagens, garantindo a qualidade visual e estrutural do site.
-
----
-
-## 🧪 Testes realizados
-
-- Verificação do título da página principal (HTTP Cats)  
-- Validação da imagem correta para códigos HTTP específicos (ex: 100, 200, 404)  
-- Testes de navegação entre diferentes códigos HTTP via URL  
-- Checagem da resposta HTTP e renderização correta da imagem associada  
-- Teste de carregamento da página inicial e de páginas específicas do site
+Automate the visual and functional validation of the HTTP Cats pages, ensuring that the correct images are displayed for the tested HTTP status codes.  
+The project verifies both the proper loading of pages and essential elements such as titles and images, guaranteeing the site's visual and structural quality.
 
 ---
 
-## 🛠️ Tecnologias e ferramentas utilizadas
+## 🧪 Tests performed
 
-- [Playwright](https://playwright.dev/) — framework de automação de testes  
-- Node.js — ambiente de execução JavaScript  
-- Visual Studio Code — editor de código  
-- PowerShell (modo administrador) — terminal para execução dos comandos  
-- Git & GitHub — versionamento e hospedagem do código
+- Verification of the main page title (HTTP Cats)  
+- Validation of the correct image for specific HTTP codes (e.g., 100, 200, 404)  
+- Navigation tests between different HTTP codes via URL  
+- Checking the HTTP response and correct rendering of the associated image  
+- Loading tests for the homepage and specific pages of the site
 
 ---
 
-## 🚀 Como executar o projeto
+## 🛠️ Technologies and tools used
 
-1. Clone este repositório:
+- Playwright — test automation framework  
+- Node.js — JavaScript runtime environment  
+- Visual Studio Code — code editor  
+- PowerShell (admin mode) — terminal for command execution  
+- Git & GitHub — version control and code hosting
+
+---
+
+## 🚀 How to run the project
+
+1. Clone this repository:
 
 ```bash
-git clone https://github.com/QAMilenaTorres/nomedorepo.git
+git clone https://github.com/QAMilenaTorres/Automation-in-Playwright-on-Website-HTTPCats
 cd nomedorepo
 
-2. Instale as dependências:
+2.     Install dependencies:
 npm install
 
-3. Execute os testes com Playwright:
+3. Run tests with Playwright:
 npx playwright test
 
-4. (Opcional) Para rodar testes específicos ou abrir o modo interativo do Playwright, consulte a documentação oficial.
+4. (Optional) To run specific tests or open Playwright’s interactive mode, check the official documentation.
 
-📁 Estrutura do projeto:
-├── tests/              # Pasta com scripts de teste Playwright
-├── package.json        # Gerenciador de dependências e scripts npm
-├── playwright.config.js # Configurações do Playwright
-└── README.md           # Documentação do projeto
+📁 Project structure:
+├── tests/              # Folder with Playwright test scripts
+├── package.json        # Dependency manager and npm scripts
+├── playwright.config.js # Playwright configuration
+└── README.md           # Project documentation
 
-🤝 Contribuição
-
-Contribuições são bem-vindas!
-Para contribuir, abra uma issue ou envie um pull request com melhorias ou correções.
-
-📞 Contato
-
-Se tiver dúvidas ou quiser trocar uma ideia sobre automação, pode me encontrar no GitHub: [QAMilenaTorres(https://github.com/QAMilenaTorres)]
+📞 Contact
+    If you have questions or want to chat about automation, find me on GitHub: [QA Milena Torres(https://github.com/QAMilenaTorres)]
